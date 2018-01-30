@@ -49,8 +49,10 @@ while(count<=100): # we want the dice to roll again and again, without writing t
             count=64
             print("Bad luck! snake has bitten you :(")
     else      # when count reaches 100 the loop is excecuted, which means you have won and the loop breaks.      
- 
-print("You have won!!")
-     
+ break
+while(count>100):
+    print("Try again!")
+break
+             
             
 
