@@ -6,7 +6,7 @@ computer=random.choice(l)
 print(computer)
 if (computer == user):
     print("IT IS A TIE")
-elif(computer=="rock" and user=="pcissor"):
+elif(computer=="rock" and user=="scissor"):
     print("computer won")
 elif(computer=="rock" and user=="paper"):
     print("user won")
